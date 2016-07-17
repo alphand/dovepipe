@@ -1,1 +1,1 @@
-web:dovepipe -p :$PORT
+web:dovepipe -p ":${PORT}"
