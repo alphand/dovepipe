@@ -1,0 +1,12 @@
+{
+  "name": "dovepipe",
+  "description": "Golang Dovepipe App",
+  "keywords": [
+    "go",
+    "dovepipe"
+  ],
+  "image": "heroku/go:1.6",
+  "mount_dir": "src/github.com/alphand/dovepipe",
+  "website": "http://github.com/alphand/dovepipe",
+  "repository": "http://github.com/alphand/dovepiped"
+}
