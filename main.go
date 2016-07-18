@@ -37,6 +37,6 @@ func setupServer(addr string) *http.Server {
 
 func handlerRoot() http.Handler {
 	return http.HandlerFunc(func(rw http.ResponseWriter, req *http.Request) {
-		rw.Write([]byte("Hello World!"))
+		rw.Write([]byte("Hello World Update!"))
 	})
 }
