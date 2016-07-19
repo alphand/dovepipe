@@ -32,7 +32,7 @@ func setupServer(addr string) *http.Server {
 		Handler: appServeMux,
 	}
 	appServeMux.Handle("/", handlerRoot())
-	appServeMux.HandleFunc("/fbwebhook", mess.Handler)
+	appServeMux.Handle("/fbwebhook", mess.Handler())
 	return server
 }
 
